@@ -29,6 +29,8 @@ class Prasad:
 	def add(self,a,b):
 	    print(a+b)
 	    return self.x+self.y
+	def mult(self):
+	    return self.x * self.y
 
 p=Prasad(10,30)
 print(p.add(40,50))	    
